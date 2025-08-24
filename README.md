@@ -37,3 +37,5 @@ O código é organizado de forma modular, com funções específicas para cada t
 -   [ ] Expandir o arquivo `Data_Sistemas.py` com mais sistemas de RPG.
 -   [ ] Adicionar validação de dados mais robusta (ex: limites para valores de atributos).
 -   [ ] Criar um sistema de "rolagem de dados" para gerar atributos aleatoriamente.
+-   [ ] Formatar o código para o sistem WEB de maneira editável a qualquer momento.
+-   [ ] Adicionar outros elementos do atual sistema desenvolvido (D&D), como itens, armas, etc.
