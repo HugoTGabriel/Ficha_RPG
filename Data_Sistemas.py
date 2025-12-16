@@ -18,12 +18,5 @@ SISTEMAS = {
             'Investigação', 'Lidar com Animais', 'Medicina', 'Natureza',
             'Percepção', 'Persuasão', 'Prestidigitação', 'Religião', 'Sobrevivência'
         ]
-
-    },
-
-    'Call of Cthulhu': {
-    },
-
-    'Ordem Paranormal': {
     }
 }

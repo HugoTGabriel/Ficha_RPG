@@ -1,41 +1,64 @@
-# Criador de Fichas de RPG em Linha de Comando
+# Ficha RPG (CLI)
 
-Este é um projeto em Python para a criação e gerenciamento de fichas de personagens de RPG diretamente do terminal. O objetivo é oferecer uma ferramenta simples, rápida e extensível para jogadores que precisam criar uma ficha sem o uso de interfaces gráficas complexas.
+Projeto em Python para criação de fichas de personagem de RPG via terminal (CLI), com foco inicial em Dungeons & Dragons.
 
-## Funcionalidades
+O objetivo deste projeto é servir como base de estudo para:
+- Estruturação de dados
+- Lógica de escolha e validação de entrada do usuário
+- Organização de código em funções
+- Evolução futura para sistemas mais complexos (jogo em texto, API, etc.)
 
-- **Criação Guiada de Fichas:** O programa guia o usuário passo a passo na criação do personagem, desde a escolha do sistema até a definição de atributos e perícias.
-- **Múltiplos Sistemas:** A estrutura do projeto permite adicionar facilmente novos sistemas de RPG (como D&D, Call of Cthulhu, etc.) através de um dicionário de dados.
-- **Salvar e Carregar:** As fichas podem ser salvas em formato `.json`, um formato de dados estruturado e legível, permitindo que sejam carregadas e utilizadas em sessões futuras.
-- **Exportação para `.txt`:** Para facilitar a visualização e impressão, o programa oferece uma opção para exportar a ficha para um arquivo de texto (`.txt`) formatado de forma clara e organizada.
-- **Interface de Menus:** A navegação é feita através de menus simples e intuitivos no terminal, tornando a experiência de uso direta e eficiente.
+---
 
-## Como Executar
+## 📌 Funcionalidades atuais
 
-1.  **Pré-requisitos:** Certifique-se de ter o [Python](https://www.python.org/downloads/) instalado em sua máquina.
-2.  **Estrutura de Arquivos:** O projeto é composto por dois arquivos principais:
-    -   `main.py`: Contém toda a lógica do programa.
-    -   `Data_Sistemas.py`: Contém o dicionário `SISTEMAS` com os dados dos jogos.
-3.  **Execução:** Abra o terminal na pasta onde os arquivos estão localizados e execute o seguinte comando:
-    ```bash
-    python main.py
-    ```
-4.  Siga as instruções exibidas no terminal para criar, carregar ou gerenciar suas fichas.
+- Criação de personagem via terminal
+- Escolha de:
+  - Raça
+  - Classe
+  - Atributos
+  - Perícias
+- Exibição da ficha final formatada no terminal
 
-## Estrutura do Código
+---
 
-O código é organizado de forma modular, com funções específicas para cada tarefa:
+## 🛠️ Tecnologias utilizadas
 
--   **Funções de Interface (`escolher_opção`):** Gerenciam a interação com o usuário.
--   **Funções de Criação (`criar_ficha`, `escolher_sistema`, etc.):** Cuidam da lógica de construção dos dados da ficha.
--   **Funções de Arquivo (`salvarFicha`, `carregar_ficha`, `exportarTXT`):** Lidam com a leitura e escrita de arquivos.
--   **Funções de Menu (`menu`, `menuFicha`):** Controlam o fluxo de navegação do programa.
+- Python 3
+- Estrutura de dados com dicionários e listas
+- Execução via linha de comando (CLI)
 
-## Próximos Passos (Possíveis Melhorias)
+---
 
--   [ ] Implementar uma função para **editar** uma ficha já carregada.
--   [ ] Expandir o arquivo `Data_Sistemas.py` com mais sistemas de RPG.
--   [ ] Adicionar validação de dados mais robusta (ex: limites para valores de atributos).
--   [ ] Criar um sistema de "rolagem de dados" para gerar atributos aleatoriamente.
--   [ ] Formatar o código para o sistem WEB de maneira editável a qualquer momento.
--   [ ] Adicionar outros elementos do atual sistema desenvolvido (D&D), como itens, armas, etc.
+## 📂 Estrutura do projeto
+
+- `Principal.py` → Arquivo principal do programa
+- `Data_Sistemas.py` → Dados do sistema de RPG (raças, classes, atributos, perícias)
+
+---
+
+## 🚧 Estado do projeto
+
+Projeto em desenvolvimento.
+
+Próximos passos planejados:
+- Simplificação e refatoração do código
+- Evolução para um pequeno jogo de RPG em texto
+- Sistema de missões simples
+- Progressão de personagem (XP / níveis)
+- Possível uso futuro de API ou geração procedural de conteúdo
+
+---
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+- git clone https://github.com/HugoTGabriel/Ficha_RPG.git
+
+2. Acesse a pasta do projeto:
+
+- cd Ficha_RPG
+
+3. Execute o programa:
+
+- python Principal.py
