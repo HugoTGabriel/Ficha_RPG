@@ -53,13 +53,12 @@ Próximos passos planejados:
 ## ▶️ Como executar
 
 1. Clone o repositório:
-```bash
-'git clone https://github.com/HugoTGabriel/Ficha_RPG.git' (sem as aspas)
+- git clone https://github.com/HugoTGabriel/Ficha_RPG.git
 
 2. Acesse a pasta do projeto:
 
-cd Ficha_RPG
+- cd Ficha_RPG
 
 3. Execute o programa:
 
-python Principal.py
+- python Principal.py
